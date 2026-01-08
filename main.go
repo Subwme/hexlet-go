@@ -1,9 +1,11 @@
 package main
 
 import (
-	"github.com/sirupsen/logrus"
+	"fmt"
+
+	"github.com/hexlet-components/hxlt/greeting"
 )
 
 func main() {
-	logrus.Println("Hello, Hexlet!")
+	fmt.Println(greeting.Hello())
 }
